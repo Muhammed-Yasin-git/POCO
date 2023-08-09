@@ -1,0 +1,322 @@
+body{
+    margin:0;
+    
+}
+.header{
+    display: flex;
+    background-color: #161616;
+    border-top:2px solid ;
+    border-color:#ffd400;
+    z-index:4;
+}
+.poco1{
+    margin-left: 62px;
+    height: 60px;
+    
+}
+.text1{
+    color: rgb(255, 249, 249);
+    font-size:12px;
+    padding-top:10px;
+    cursor:pointer;
+    padding-left:70px;
+    font-family: 'Roboto,Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei',sans-serif;
+}
+.line1{
+    color: rgb(255, 249, 249);
+    font-size:15px;
+    padding-left:20px;
+    padding-top:5px;
+}
+.text2{
+    color: rgb(255, 249, 249);
+    font-size:12px;
+    padding-top:10px;
+    cursor:pointer;
+    padding-left:20px;
+    font-family: 'Roboto,Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei',sans-serif;
+}
+.text3{
+    color: rgb(255, 249, 249);
+    font-size:12px;
+    padding-top:10px;
+    padding-left:690px;
+    cursor:pointer;
+    font-family: 'Roboto,Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei',sans-serif;
+}
+.line2{
+    color: rgb(255, 249, 249);
+    font-size:12px;
+    padding-top:10px;
+    padding-left:20px;
+}
+.text4{
+    color: rgb(255, 249, 249);
+    font-size:12px;
+    padding-top:10px;
+    cursor:pointer;
+    padding-left:20px;
+    font-family: 'Roboto,Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei',sans-serif;
+}
+.content1{
+    background-color: #000000;
+    display:flex;
+    cursor:pointer;
+}
+.content1 p:hover{
+    color:yellow;
+    transition: ease-in ;
+}
+.pocotext1,.pocotext2,.pocotext3,.pocotext4,
+.pocotext5,.pocotext6,.pocotext7{
+    color:white;
+    font-weight: 800;
+    font-size: 85%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.pocotext1{
+    margin-left:335px;
+    padding-top:20px;
+    padding-left:20px;
+    padding-bottom:20px;
+
+}
+.pocotext2,.pocotext3,.pocotext4,
+.pocotext5,.pocotext6,.pocotext7{
+    margin-left:20px;
+    padding-top:20px;
+    padding-left:30px;
+    padding-bottom:20px;
+}
+.bgimg{
+    overflow: hidden;
+}
+.img2{
+    margin-left:-285px;
+    margin-top:-195px;
+    
+}
+.less ul{
+    margin-top:10px;
+    margin-left:100px;
+    position:relative;
+    top:-340px;
+    left:1104px;
+}
+.greater ul{
+    position:relative;
+    bottom:310px;
+    left:68px;
+}
+.but ul{
+    margin-top:-39px;
+    position:relative;
+    top:-59px;
+    left:613px;
+}
+.but button{
+    padding-top:10px;
+    padding-left:6px;
+    border-radius:8px;
+    border-color:#fdfbfb69;
+    position:relative;
+    background-color: #35354b;
+    border-style:solid;
+    top:-60px;
+    right:50px;
+    border-width:0.1px;
+}
+.slides{
+    background-color: #000000;
+    width:100%;
+    height:300px;
+    margin-top:-120px;
+}
+.slides ul{
+    display:flex;
+    margin-left:-10px;
+
+}
+.slides li{
+    margin-left:20px;
+}
+.videos{
+    background-color: black;
+    height:80px;
+    width:100%;
+    margin-top:-30px;
+    font-size: 23px;;
+}
+h1{
+    color:white;
+    margin-left:600px;
+    margin-top:10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.slides2{
+    background-color: #000000;
+    width:100%;
+    height:450px;
+    margin-top:-20px;
+}
+.slides2 ul{
+    display:flex;
+    margin-left:-10px;
+}
+.slides2 li{
+    margin-left:20px;
+}
+.enlarge{
+    height:320px;
+    width:390px;
+}
+.names-main{
+    display:flex;
+    margin-right:30px;
+}
+.names1,.names2,.names3{
+    
+    color:white;
+    list-style: none;
+}
+.names1{
+    margin-top:-250px;
+    padding:150px;
+}
+.names2{
+    margin-top:-250px;
+    padding:150px;
+}
+.names3{
+    margin-top:-250px;
+    padding:150px;
+}
+.main-footer{
+    background-color: black;
+    width:100%;
+    height:520px;
+    margin-top: -30px;;
+}
+.grey-footer{
+    background-color: #161718;
+    width:100%;
+    height:120px;
+    display:flex
+}
+.texts{
+    font-size:110%;
+    margin: 0;
+    padding:10px;
+    margin-top:10px;
+    color: white;
+    font-family: 'Roboto,Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei',sans-serif;;
+}
+h3{
+    margin-left:40px;
+    margin-top:30px;
+    font-size:300
+}
+.text7{
+    margin-top:-20px;
+    font-size: 70%;
+    margin-left:40px;
+    color:grey;
+}
+input{
+    WIDTH:200px;
+    height:15px;
+    margin-top:45px;
+    margin-left:40px;
+    background-color: #161718;
+    border-top:grey solid 1px;
+    border-left:grey solid 1px;
+    border-bottom:grey solid 1px;
+    border-right:0;
+    color:grey;
+    padding:10px;
+}
+.button2{
+    background-color: #161718;
+    border-top:grey solid 1px;
+    border-right:grey solid 1px;
+    border-bottom:grey solid 1px;
+    border-left:0;
+    color:grey;
+    padding:10px;
+    WIDTH:30px;
+    height:37px;
+    margin-top:45px;
+    font-size:100%
+}
+.texts1{
+    font-size:110%;
+    margin-left: 190px;
+    padding:10px;
+    margin-top:5px;
+    color: white;
+    font-family: 'Roboto,Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei',sans-serif;;
+}
+h3{
+    margin-left:40px;
+    margin-top:30px;
+}
+.text8{
+    margin-top:-20px;
+    font-size: 70%;
+    margin-left:40px;
+    color:grey;
+}
+.icons{
+    padding:20px;
+    margin-top:30px;
+    display: flex;
+    
+}
+.icon1,.icon2,.icon3{
+    margin-left:40px;
+    
+}
+.last-main {
+    color:white;
+    line-height: 20px;;
+    margin-left:10px;
+    padding:50px;
+    font-family: 'Roboto,Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei',sans-serif;
+}
+.p1{
+    color:#b0b0b0;
+    font-size:80%;
+}
+.p2{
+    font-weight:550;
+    font-size:15px;
+}
+.last-footer{
+    display:flex;
+}
+.para2,.para3,.para4 {
+    color:white;
+    line-height: 20px;
+    padding:50px;
+    font-family: 'Roboto,Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei',sans-serif;
+}
+.para2{
+    margin-left:60px;
+}
+.p1:hover{
+    color:white;
+}
+.copyright{
+    margin-left:58px;
+    margin-right:40px;
+    padding-top:20px;
+    border-top: #35354b solid 1px;;
+}
+.copyright{
+    font-size:120%;
+    font-family: 'Roboto,Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei',sans-serif;
+}
+.content1:hover{
+    transition: ease-out 1s;
+    color:yellow;
+}
